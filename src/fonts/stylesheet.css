@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'TikTok Sans';
+    src: url('TikTokSans-Regular.eot');
+    src: url('TikTokSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TikTokSans-Regular.woff2') format('woff2'),
+        url('TikTokSans-Regular.woff') format('woff'),
+        url('TikTokSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'TikTok Sans';
+    background-color: #F089A4;
+}
+
+.flex{
+    display: flex;
+}
+
+.jc-sb{
+    justify-content: space-between;
+}
+
+.header{
+    border-bottom: 5px solid #4A5295;
+}

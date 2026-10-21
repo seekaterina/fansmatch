@@ -13,7 +13,7 @@ const htmlPages = [
   createPages('./src/pages/about.html', './about.html', ['index']),
   createPages('./src/pages/poster.html', './poster.html', ['index']),
   createPages('./src/pages/random.html', './random.html', ['index']),
-  createPages('./src/pages/error.hyml', './error.html', ['index']),
+  createPages('./src/pages/error.html', './error.html', ['index']),
 ]
 
 module.exports = htmlPages
