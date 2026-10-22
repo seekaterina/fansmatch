@@ -9,3 +9,15 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'Climate Crisis';
+    src: url('../fonts/ClimateCrisis-Regular.eot');
+    src: url('../fonts/ClimateCrisis-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ClimateCrisis-Regular.woff2') format('woff2'),
+        url('../fonts/ClimateCrisis-Regular.woff') format('woff'),
+        url('../fonts/ClimateCrisis-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

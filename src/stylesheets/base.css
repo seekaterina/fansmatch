@@ -1,3 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'TikTok Sans';
+    background-color: #F089A4;
+    color: #202127;
+}
+
+h1{
+    font-family: 'Climate Crisis';
+    font-size: 230px;
+    text-transform: uppercase;
+    line-height: 150%;
+    padding-top: 115px;
+}
+
+p{
+   font-size: 40px; 
+   line-height: 130%;
+}
+
 a{
     color: #4A5295;
     text-decoration: none;
