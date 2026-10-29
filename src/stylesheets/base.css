@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 body{
@@ -17,6 +16,15 @@ h1{
     padding-top: 6vw;
 }
 
+h2{
+    font-family: 'TikTok Sans';
+    font-size: 6.7vw;
+    line-height: 90%;
+    text-transform: uppercase;
+    max-width: 65vw;
+    padding-bottom: 0.8vw;
+}
+
 p{
    font-size: 2vw; 
    line-height: 130%;
@@ -27,4 +35,5 @@ a{
     text-decoration: none;
     font-size: 1vw;
     cursor: pointer;
+    line-height: 150%;
 }

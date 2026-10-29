@@ -18,6 +18,10 @@
     justify-content: space-between;
 }
 
+.jc-c{
+    justify-content: center;
+}
+
 .ai-c{
     align-items: center;
 }
@@ -34,12 +38,20 @@
     padding-bottom: 1vw;
 }
 
+.pb3{
+    padding-bottom: 3vw;
+}
+
 .pl2{
     padding-left: 2vw;
 }
 
 .width26{
     width: 26vw;
+}
+
+.width65{
+    width: 65vw;
 }
 
 .z1000{
@@ -50,11 +62,21 @@
     background-color: #4A5295;
 }
 
+.space-small{
+    height: 4vw;
+}
+
+.space-big{
+    height: 6vw;
+}
+
 .container{
+    overflow: hidden;
     width: 100vw;
 }
 
 .content-container{
+    overflow: hidden;
     margin: 0 3vw;
 }
 
@@ -79,7 +101,7 @@
 }
 
 .header-elem{
-    padding: 0.5vw 2vw 2vw;
+    padding: 0.5vw 1vw 2vw;
 }
 
 .header-elem.active{
@@ -88,10 +110,19 @@
     border-radius: 1vw 1vw 0 0;
 }
 
+.search{
+    width: 4vw;
+}
+
 .about-cats{
-    left: 50%;
-    bottom: 11.7vw;
-    margin-bottom: -8vw;
+    left: 30vw;
+    bottom: 2vw;
+    margin-bottom: -7vw;
+    width: 45.3vw;
+}
+
+.about-flower{
+    width: 13.8vw;
 }
 
 
