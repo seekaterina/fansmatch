@@ -6,6 +6,10 @@
     position: relative;
 }
 
+.inline{
+    display: inline;
+}
+
 .flex{
     display: flex;
 }
@@ -46,6 +50,10 @@
     padding-left: 2vw;
 }
 
+.p08-1{
+    padding: 0.8vw 1vw;
+}
+
 .width26{
     width: 26vw;
 }
@@ -60,6 +68,18 @@
 
 .bgc-b{
     background-color: #4A5295;
+}
+
+.bgc-p{
+    background-color: #F089A4;
+}
+
+.bgc-y{
+    background-color: #F9F29A;
+}
+
+.fs3{
+    font-size: 3vw;
 }
 
 .space-small{

@@ -1,11 +1,23 @@
 console.log('data')
 
 const data_start = [
-    //
+    // цветки о нас 1 блок
     [
         ['-34.6vw', '-15vw'],
         ['18.75vw', '-2vw']
-    ]
+    ],
+    // ценности
+    [
+        ['8vw', '0', '1.4vw 1.4vw 0 1.4vw', '21.6vw'],
+        ['40vw', '-8vw', '0', '5vw'],
+        ['55vw', '-6vw', '0', '14vw'],
+        ['67vw', '-29vw', '1.4vw 1.4vw 1.4vw 0', '20.3vw'],
+    ],
+    // ценности поворот
+    [
+        ['rotate(-12deg)'],
+        ['rotate(25deg)'],
+    ],
 ]
 
 const about_flowers = document.querySelectorAll('.about-flower');
@@ -13,6 +25,23 @@ const about_flowers = document.querySelectorAll('.about-flower');
 about_flowers.forEach((point, i) => {
     point.style.left = data_start[0][i][0];
     point.style.top = data_start[0][i][1];
+})
+
+const about_values = document.querySelectorAll('.about-value');
+
+about_values.forEach((point, i) => {
+    point.style.left = data_start[1][i][0];
+    point.style.top = data_start[1][i][1];
+    point.style.borderRadius = data_start[1][i][2];
+    point.style.width = data_start[1][i][3];
+})
+
+const about_values_rotate = document.querySelectorAll('.about-value-rot');
+
+console.log(about_values_rotate)
+
+about_values_rotate.forEach((point, i) => {
+    point.style.transform = data_start[2][i][0];
 })
 
 /* const data_start = [
