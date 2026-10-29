@@ -8,10 +8,10 @@ const path = require('path')
 
 module.exports = {
   entry: {
-    index: './src/javascripts/index.js',
-    data: './src/javascripts/data.js',
-    shaker: './src/javascripts/shaker.js',
-    plug: './src/javascripts/plug.js'
+    index: './docs/javascripts/index.js',
+    data: './docs/javascripts/data.js',
+    shaker: './docs/javascripts/shaker.js',
+    plug: './docs/javascripts/plug.js'
   },
   output: {
     filename: '[name].js',
