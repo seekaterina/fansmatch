@@ -1,4 +1,106 @@
 @media (max-width: 768px) {
+    h1{
+        font-size: 18vw;
+        padding-top: 26vw;
+    }
+
+    h2{
+        font-size: 8vw;
+        padding-bottom: 0.8vw;
+    }
+
+    p{
+    font-size: 2vw; 
+    }
+
+    a{
+        font-size: 1.8vw;
+    }
+
+    .pb1{
+        padding-bottom: 3vw;
+    }
+
+    .pb3{
+        padding-bottom: 7vw;
+    }
+    
+    .width65{
+        width: 75vw;
+    }
+
+    .fs1{
+        font-size: 1.8vw;
+    }
+
+    .space-small{
+        height: 10vw;
+    }
+
+    .space-big{
+        height: 15vw;
+    }
+
+    .content-container{
+        margin: 0 3vw;
+    }
+
+    .header-logo{
+        width: 10vw;
+    }
+
+    .header-bottom{
+        height: 0.4vw;
+    }
+
+    .header-elem{
+        padding: 0.5vw 1vw 1vw;
+    }
+
+    .search{
+        width: 6vw;
+    }
+
+    .about-cats{
+        left: 25vw;
+        bottom: 2vw;
+        margin-bottom: -7vw;
+        width: 50vw;
+    }
+
+    .about-flower{
+        width: 14vw;
+    }
+
+    .about-card{
+        height: 65vw;
+        margin-bottom: -21vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
 
   .shaker {
     aspect-ratio: 9 / 19;
