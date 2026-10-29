@@ -9,11 +9,11 @@ function createPages(template, filename, chunks) {
 }
 
 const htmlPages = [
-  createPages('./docs/index.html', './index.html', ['index', 'plug']),
-  createPages('./docs/pages/about.html', './about.html', ['index', 'data', 'shaker']),
-  createPages('./docs/pages/poster.html', './poster.html', ['index', 'plug']),
-  createPages('./docs/pages/random.html', './random.html', ['index', 'plug']),
-  createPages('./docs/pages/error.html', './error.html', ['index']),
+  createPages('./src/index.html', './index.html', ['index', 'plug']),
+  createPages('./src/pages/about.html', './about.html', ['index', 'data', 'shaker']),
+  createPages('./src/pages/poster.html', './poster.html', ['index', 'plug']),
+  createPages('./src/pages/random.html', './random.html', ['index', 'plug']),
+  createPages('./src/pages/error.html', './error.html', ['index']),
 ]
 
 module.exports = htmlPages
