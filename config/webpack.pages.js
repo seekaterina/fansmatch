@@ -10,7 +10,7 @@ function createPages(template, filename, chunks) {
 
 const htmlPages = [
   createPages('./src/index.html', './index.html', ['index']),
-  createPages('./src/pages/about.html', './about.html', ['index']),
+  createPages('./src/pages/about.html', './about.html', ['index', 'data']),
   createPages('./src/pages/poster.html', './poster.html', ['index']),
   createPages('./src/pages/random.html', './random.html', ['index']),
   createPages('./src/pages/error.html', './error.html', ['index']),
