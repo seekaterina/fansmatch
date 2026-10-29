@@ -18,6 +18,10 @@
     display: flex;
 }
 
+.gap2{
+    gap: 2vw;
+}
+
 .wrap{
     flex-wrap: wrap;
 }
@@ -58,6 +62,14 @@
     padding: 0.8vw 1vw;
 }
 
+.mar0{
+    margin: 0 !important;
+}
+
+.width14{
+    width: 14vw;
+}
+
 .width26{
     width: 26vw;
 }
@@ -82,8 +94,52 @@
     background-color: #F9F29A;
 }
 
+.bgc-w{
+    background-color: #fff !important;
+}
+
+.fc-w{
+    color: #fff !important;
+}
+
+.fc-y{
+    color: #F9F29A;
+}
+
+.fc-p{
+    color: #F089A4;
+}
+
+.fc-b{
+    color: #4A5295;
+}
+
+.fs1{
+    font-size: 1.15vw;
+}
+
 .fs3{
     font-size: 3vw;
+}
+
+.fs9{
+    font-size: 9vw;
+}
+
+.tt-none{
+    text-transform: none;
+}
+
+.td-ul{
+    text-decoration: underline;
+}
+
+.font-cc{
+    font-family: 'Climate Crisis';
+}
+
+.bold{
+    font-weight: bold;
 }
 
 .space-small{
@@ -145,6 +201,37 @@
 
 .about-flower{
     width: 13.8vw;
+}
+
+.about-values{
+    margin-bottom: -15vw;
+}
+
+.about-card{
+    width: 31.25vw;
+    height: 41vw;
+    border-radius: 2.6vw;
+    padding: 2vw 2.6vw;
+}
+
+.about-card img{
+    width: 22.4vw;
+    height: 22.4vw;
+    border-radius: 2.6vw;
+    margin: 0 2vw 2vw;
+}
+
+.about-role-border{
+    border: 0.2vw solid #FFFFFF;
+}
+
+.about-role img{
+    max-width: 100%;
+    width: 2vw;
+}
+
+.bor-rad1{
+    border-radius: 1vw;
 }
 
 

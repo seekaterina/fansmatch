@@ -8,15 +8,58 @@ const data_start = [
     ],
     // ценности
     [
-        ['8vw', '0', '1.4vw 1.4vw 0 1.4vw', '21.6vw'],
+        ['8vw', '0', '1.4vw 1.4vw 0vw 1.4vw', '21.6vw'],
         ['40vw', '-8vw', '0', '5vw'],
         ['55vw', '-2vw', '0', '14vw'],
         ['67vw', '-25vw', '1.4vw 1.4vw 1.4vw 0', '20.3vw'],
+        //
+        ['25vw', '-10vw', '0', '60vw'],
+        //
+        ['5vw', '-23vw', '0', '18vw'],
+        ['8vw', '-20vw', '0', '5vw'],
+        ['20vw', '-7vw', '0', '17vw'],
+        ['67vw', '-25vw', '0 1.4vw 1.4vw 1.4vw', '20vw'],
+        ['90vw', '-40vw', '0vw', '5vw'],
     ],
     // ценности поворот
     [
         ['rotate(-12deg)'],
         ['rotate(25deg)'],
+        ['rotate(10deg)'],
+    ],
+    // карточки поворот
+    [
+        ['rotate(5deg)'],
+        ['rotate(-5deg)'],
+        ['rotate(5deg)'],
+    ],
+    // теги поворот
+    [
+        ['rotate(-20deg)'],
+        ['rotate(15deg)'],
+        ['rotate(-20deg)'],
+        //
+        ['rotate(8deg)'],
+        ['rotate(10deg)'],
+        ['rotate(-20deg)'],
+        //
+        ['rotate(-15deg)'],
+        ['rotate(15deg)'],
+        ['rotate(-15deg)'],
+    ],
+    // теги положение
+    [
+        ['10vw', '-30vw'],
+        ['-5vw', '-20vw'],
+        ['25vw', '-23vw'],
+        //
+        ['10vw', '-40vw'],
+        ['0', '-21vw'],
+        ['25vw', '-23vw'],
+        //
+        ['12vw', '-38vw'],
+        ['5vw', '-40vw'],
+        ['23vw', '-24vw'],
     ],
 ]
 
@@ -38,70 +81,26 @@ about_values.forEach((point, i) => {
 
 const about_values_rotate = document.querySelectorAll('.about-value-rot');
 
-console.log(about_values_rotate)
-
 about_values_rotate.forEach((point, i) => {
+    console.log(data_start[2][i][0])
     point.style.transform = data_start[2][i][0];
 })
 
-/* const data_start = [
-    //пункты меню
-    [
-        ['17.5%', '25vh'],
-        ['57.8%', '14vh'],
-        ['23.6%','34vh'],
-        ['14.4%', '40vh'],
-        ['36.4%', '44vh'],
-        ['75.6%','27vh']
-    ],
-    //изображения карточек на главной
-    [
-        [`url('images/alpheratz.png')`],
-        [`url('images/kratz.png')`],
-        [`url('images/sirius.png')`]
-    ],
-    //плакаты на странице о нас
-    [
-        [`url('images/offer-1.png')`],
-        [`url('images/offer-2.png')`],
-        [`url('images/offer-3.png')`]
-    ],
-    //шоу-рум блок 2
-    [
-        [`url('images/sr-block2-1.jpg')`],
-        [`url('images/sr-block2-2.jpg')`],
-        [`url('images/sr-block2-1.jpg')`]
-    ],
-    //сияющая среда
-    [
-        [`url('images/wednesday-1.png')`],
-        [`url('images/wednesday-2.png')`],
-        [`url('images/wednesday-3.png')`]
-    ],
-    //наборы
-    [
-        [`url('images/set-1.png')`],
-        [`url('images/set-2.png')`],
-        [`url('images/set-3.png')`]
-    ],
-    //новые предложения
-    [
-        [`url('images/new-pos-1.png')`],
-        [`url('images/new-pos-2.png')`],
-        [`url('images/new-pos-3.png')`]
-    ],
-    //страница ошибки
-    [
-        ['63%', '-412px'],
-        ['83%', '-256px'],
-        ['58%', '-125px'],
-        ['73%', '0']
-    ]
-]
+const about_cards_rotate = document.querySelectorAll('.about-card');
 
-const header_points = document.querySelectorAll('.header-point');
+about_cards_rotate.forEach((point, i) => {
+    point.style.transform = data_start[3][i][0];
+})
 
-header_points.forEach((point, i) => {
-    point.style.left = data_start[0][i][0];
-    point.style.top = data_start[0][i][1];
-}) */
+const about_roles_rotate = document.querySelectorAll('.about-role-rot');
+
+about_roles_rotate.forEach((point, i) => {
+    point.style.transform = data_start[4][i][0];
+})
+
+const about_roles = document.querySelectorAll('.about-role');
+
+about_roles.forEach((point, i) => {
+    point.style.left = data_start[5][i][0];
+    point.style.top = data_start[5][i][1];
+})

@@ -21,3 +21,15 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'TikTok Sans';
+    src: url('../fonts/TikTokSans-Bold.eot');
+    src: url('../fonts/TikTokSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TikTokSans-Bold.woff2') format('woff2'),
+        url('../fonts/TikTokSans-Bold.woff') format('woff'),
+        url('../fonts/TikTokSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
