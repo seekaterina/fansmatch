@@ -1,0 +1,126 @@
+@media (max-width: 768px) {
+
+  .shaker {
+    aspect-ratio: 9 / 19;
+  }
+
+  .shaker__header {
+    flex-direction: column;
+    align-items: center;
+    gap: 3vw;
+    padding: 6% 5%;
+  }
+
+  .shaker__socials {
+    width: 40%;
+    gap: 2vw;
+  }
+
+  .shaker__socials-title {
+    font-size: 2.6vw;
+  }
+
+  .shaker__socials-list {
+    gap: 3vw;
+  }
+
+  .shaker__social {
+    width: 9vw;
+  }
+
+  /* Лого под шейкером, всегда видны */
+
+  .footer__logos {
+    position: static;
+    padding: 5%;
+    align-items: center;
+    background: #F089A4;
+  }
+
+  .footer__logo--main {
+    width: 45%;
+  }
+
+  .footer__logo--school {
+    width: 42%;
+  }
+
+  /* Размеры элементов на телефоне */
+
+  .shaker__item--cat {
+    width: 38%;
+  }
+
+  .shaker__item--star-big {
+    width: 24%;
+  }
+
+  .shaker__item--star-small {
+    width: 15%;
+  }
+
+  .shaker__item--sun {
+    width: 13%;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .stub__stage {
+    aspect-ratio: 9 / 16;
+  }
+
+  .stub__logo {
+    left: 50%;
+    top: 30%;
+    width: 92%;
+  }
+
+  .sticker--cat-yellow { left: 22%; top: 14%; width: 34%; }
+  .sticker--cat-pink   { left: 78%; top: 52%; width: 30%; }
+  .sticker--cat-blue   { left: 36%; top: 56%; width: 30%; }
+
+  .sticker--star-top   { left: 62%; top: 11%; width: 13%; }
+  .sticker--star-right { left: 82%; top: 40%; width: 14%; }
+  .sticker--star-left  { left: 12%; top: 40%; width: 16%; }
+
+  .sticker--sun-top    { left: 85%; top: 17%; width: 16%; }
+  .sticker--sun-middle { left: 70%; top: 24%; width: 13%; }
+  .sticker--sun-bottom { left: 50%; top: 44%; width: 15%; }
+
+  .stub__social {
+    gap: 3vw;
+    padding: 3.5vw 6vw;
+    border-radius: 4vw;
+    font-size: 7vw;
+  }
+
+  .stub__social img {
+    width: 7.5vw;
+  }
+
+  .stub__social--tg {
+    left: 50%;
+    top: 74%;
+    transform: translate(-50%, -50%) rotate(8deg);
+  }
+
+  .stub__social--tiktok {
+    left: 50%;
+    top: 84%;
+    transform: translate(-50%, -50%) rotate(-8deg);
+  }
+
+  .stub__text {
+    left: 50%;
+    top: 94%;
+    font-size: 5.5vw;
+  }
+}
+
+/* Если у человека отключены анимации в системе — картинки стоят на месте */
+@media (prefers-reduced-motion: reduce) {
+  .sticker img {
+    animation: none;
+  }
+}

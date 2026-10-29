@@ -146,5 +146,82 @@
         </div>
       </div>
     </div>
+
+
+
+
+
+    <footer class="footer">
+
+  <section class="shaker" id="shaker">
+
+    <!-- Шапка шейкера (соцсети) -->
+    <header class="shaker__header">
+      <div class="shaker__socials">
+        <span class="shaker__socials-title">наши соц.сети</span>
+        <div class="shaker__socials-list">
+          <a class="shaker__social" href="#">
+            <img src="../images/footer/tg-logo.svg" alt="Telegram">
+          </a>
+          <a class="shaker__social" href="#">
+            <img src="../images/footer/tik-tok-logo.svg" alt="TikTok">
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!--
+      Поле с элементами.
+      data-x, data-y     - стартовая позиция центра в % (десктоп)
+      data-mx, data-my   - стартовая позиция центра в % (телефон)
+      data-shape         - форма для столкновений: rect или circle
+      Размер задаётся классом (shaker__item--cat, --star-big, --star-small, --sun) в css
+    -->
+    <div class="shaker__field" id="shakerField">
+
+      <!-- Коты -->
+      <div class="shaker__item shaker__item--cat" data-shape="rect" data-x="18" data-y="72" data-mx="30" data-my="62"><img src="../images/footer/kot.svg" alt=""></div>
+      <div class="shaker__item shaker__item--cat" data-shape="rect" data-x="48" data-y="68" data-mx="72" data-my="58"><img src="../images/footer/kot2.svg" alt=""></div>
+      <div class="shaker__item shaker__item--cat" data-shape="rect" data-x="76" data-y="74" data-mx="32" data-my="80"><img src="../images/footer/kot3.svg" alt=""></div>
+
+      <!-- Большие звёзды с глазами -->
+      <div class="shaker__item shaker__item--star-big" data-shape="circle" data-x="30" data-y="86" data-mx="75" data-my="76"><img src="../images/footer/star_eyes.svg" alt=""></div>
+      <div class="shaker__item shaker__item--star-big" data-shape="circle" data-x="63" data-y="84" data-mx="52" data-my="90"><img src="../images/footer/star_eyes2.svg" alt=""></div>
+      <div class="shaker__item shaker__item--star-big" data-shape="circle" data-x="90" data-y="86" data-mx="82" data-my="92"><img src="../images/footer/star_eyes3.svg" alt=""></div>
+
+      <!-- Маленькие звёзды -->
+      <div class="shaker__item shaker__item--star-small" data-shape="circle" data-x="5"  data-y="90" data-mx="14" data-my="88"><img src="../images/footer/star.svg" alt=""></div>
+      <div class="shaker__item shaker__item--star-small" data-shape="circle" data-x="22" data-y="92" data-mx="30" data-my="94"><img src="../images/footer/star2.svg" alt=""></div>
+      <div class="shaker__item shaker__item--star-small" data-shape="circle" data-x="45" data-y="92" data-mx="56" data-my="72"><img src="../images/footer/star3.svg" alt=""></div>
+      <div class="shaker__item shaker__item--star-small" data-shape="circle" data-x="72" data-y="92" data-mx="12" data-my="72"><img src="../images/footer/star2.svg" alt=""></div>
+      <div class="shaker__item shaker__item--star-small" data-shape="circle" data-x="83" data-y="80" data-mx="90" data-my="66"><img src="../images/footer/star.svg" alt=""></div>
+      <div class="shaker__item shaker__item--star-small" data-shape="circle" data-x="12" data-y="55" data-mx="45" data-my="50"><img src="../images/footer/star3.svg" alt=""></div>
+
+      <!-- Солнца -->
+      <div class="shaker__item shaker__item--sun" data-shape="circle" data-x="15" data-y="48" data-mx="18" data-my="52"><img src="../images/footer/sun.svg" alt=""></div>
+      <div class="shaker__item shaker__item--sun" data-shape="circle" data-x="29" data-y="62" data-mx="85" data-my="50"><img src="../images/footer/sun2.svg" alt=""></div>
+      <div class="shaker__item shaker__item--sun" data-shape="circle" data-x="52" data-y="55" data-mx="62" data-my="40"><img src="../images/footer/sun3.svg" alt=""></div>
+      <div class="shaker__item shaker__item--sun" data-shape="circle" data-x="72" data-y="48" data-mx="25" data-my="40"><img src="../images/footer/sun.svg" alt=""></div>
+      <div class="shaker__item shaker__item--sun" data-shape="circle" data-x="94" data-y="76" data-mx="8"  data-my="92"><img src="../images/footer/sun2.svg" alt=""></div>
+      <div class="shaker__item shaker__item--sun" data-shape="circle" data-x="38" data-y="94" data-mx="40" data-my="62"><img src="../images/footer/sun3.svg" alt=""></div>
+
+    </div>
+
+
+  </section>
+
+  <!-- Лого-->
+  <div class="footer__logos">
+    <a class="footer__logo footer__logo--main" href="#">
+      <img src="../images/footer/logo.svg" alt="Фанс Метч">
+    </a>
+    <a class="footer__logo footer__logo--school" href="#">
+      <img src="../images/footer/logo_hce.svg" alt="Школа дизайна НИУ ВШЭ">
+    </a>
+  </div>
+
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
   </body>
 </html>
