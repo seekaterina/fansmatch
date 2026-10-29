@@ -1,3 +1,7 @@
+.hidden{
+    overflow: hidden;
+}
+
 .fixed{
     position: fixed;
 }
@@ -91,12 +95,10 @@
 }
 
 .container{
-    overflow: hidden;
     width: 100vw;
 }
 
 .content-container{
-    overflow: hidden;
     margin: 0 3vw;
 }
 
